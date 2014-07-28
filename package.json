@@ -19,6 +19,7 @@
   "dependencies": {
     "chalk": "^0.5.1",
     "express": "^4.7.2",
+    "morgan": "^1.2.2",
     "sync-prompt": "^0.4.1"
   },
   "devDependencies": {

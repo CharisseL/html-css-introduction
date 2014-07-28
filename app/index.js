@@ -4,6 +4,9 @@
 //call express, which is a function
 var express = require('express');
 var app = express();
+var morgan = require('morgan');
+
+app.use(morgan('dev'));
 //when node receives "get" request, express calls this function.
 //req = request(what browser wants;
 //res=response(what node gives back to browser)
